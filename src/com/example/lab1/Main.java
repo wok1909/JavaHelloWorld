@@ -1,0 +1,17 @@
+package com.example.lab1;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		System.out.println("Hello World!!!");
+		
+		System.out.print("이름 입력 : ");
+		
+		Scanner sc = new Scanner(System.in);
+		String name = sc.next();
+		
+		System.out.printf("[%s]님 환영합니다~\n", name);
+	}
+
+}
